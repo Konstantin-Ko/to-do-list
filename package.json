@@ -1,0 +1,14 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "simple ToDo list app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Konstantin Kozackyj",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}

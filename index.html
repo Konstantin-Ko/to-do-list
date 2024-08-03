@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/95f3b6edc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="">
+    <div class="todo-app">
+      <div class="todo-container">
+        <h1>To Do List</h1>
+        <form class="input-group">
+          <input
+            type="text"
+            class="input"
+            id="taskInput"
+            placeholder="Add a new task..."
+          />
+          <button class="add-btn fa-solid fa-plus"></button>
+        </form>
+        <div class="empty-list hidden">
+          <span>...empty list</span>
+        </div>
+        <div class="task-container">
+          <!-- Repeat the above task div for each task -->
+        </div>
+
+        <button class="clear-btn hidden">clear all tasks</button>
+      </div>
+      <button class="theme-switcher-light fa-solid fa-sun"></button>
+    </div>
+  </body>
+</html>
